@@ -1,0 +1,9 @@
+package com.java.innateTalent;
+
+public class SumElements {
+
+	public static void main(String[] args) {
+		int a[]= {};
+	}
+
+}

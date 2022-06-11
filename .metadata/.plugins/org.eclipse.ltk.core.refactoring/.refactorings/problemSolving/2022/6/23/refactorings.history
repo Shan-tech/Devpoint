@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;day_w4_05&apos; to &apos;com.java.shan&apos;&#x0A;- Original project: &apos;problemSolving&apos;&#x0A;- Original element: &apos;problemSolving/src/day_w4_05&apos;&#x0A;- Renamed element: &apos;problemSolving/src/com.java.shan&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;day_w4_05&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;day_w4_05" name="com.java.shan" qualified="false" references="true" stamp="1654266084184" textual="false" version="1.0"/>
+</session>

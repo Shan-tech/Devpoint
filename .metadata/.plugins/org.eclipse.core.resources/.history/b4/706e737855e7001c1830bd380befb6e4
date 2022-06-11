@@ -1,0 +1,17 @@
+package com.java.virtusa;
+
+public class MaxOccuranceChar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "shankar";
+		for (int i = 0; i < s.length(); i++) {
+			for (int j = 0; j < s.length(); j++) {
+				if(s.charAt(i==s.charAt(j))) {
+					
+				}
+			}
+		}
+	}
+
+}

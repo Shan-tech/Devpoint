@@ -1,0 +1,12 @@
+package com.java.innateTalent;
+
+public class SumElements {
+
+	public static void main(String[] args) {
+		int a[]= {0,},sum=0;
+		for (int i=0;i<a.length;i++) {
+			
+		}
+	}
+
+}

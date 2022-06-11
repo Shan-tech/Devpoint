@@ -1,0 +1,24 @@
+package com.java.virtusa;
+
+import java.util.Arrays;
+
+public class MaxOccuranceChar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "shankar";
+		int arr[]=new int[s.length()];
+		for (int i = 0; i < s.length(); i++) {
+			for (int j = 0; j < s.length(); j++) {
+				if( s.charAt(i)==s.charAt(j) ) {
+					arr[i]+=1;
+					s=s[:i];
+					System.out.println(s);
+				}
+			}
+		}
+		System.out.println(Arrays.toString(arr));
+		
+	}
+
+}

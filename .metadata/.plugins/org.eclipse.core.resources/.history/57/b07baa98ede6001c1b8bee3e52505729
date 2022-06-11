@@ -1,0 +1,5 @@
+package com.java.innateTalent;
+
+public class Anagram {
+	String s1="apple", s2="ppale";
+}

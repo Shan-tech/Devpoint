@@ -1,0 +1,13 @@
+package com.java.innateTalent;
+
+public class FrequencyOfEleInArray {
+
+	public static void main(String[] args) {
+		int a[]= {2,3,4,2,12,54,3,3};
+		
+		for(int i=0;i<a.length;i++) {
+			
+		}
+	}
+
+}
