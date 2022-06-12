@@ -1,24 +1,33 @@
-package com.java.virtusa;
-import java.util.*;
-public class Anagram {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		String s1="build",s2="uiBld";
-	      int flag=0;
-	      
-	      if(s1.length()!=s2.length()){
-	        flag=1;
-	      }
-	      char[] c1=s1.toLowerCase().toCharArray();
-	      char[] c2=s2.toLowerCase().toCharArray();
-	      Arrays.sort(c1);
-	      Arrays.sort(c2);
-	      if(!(Arrays.equals(c1,c2))){
-	          flag=1;
-	      }
-	        System.out.println(flag);
-	        
-	}
-
+import java.util.Arrays;
+import java.util.Scanner;
+ 
+public class ana {
+    public static void main(String[] args) {
+        String s1,s2;
+        Scanner sc = new Scanner(System.in);
+        boolean flag = true;
+        s1 = sc.nextLine();
+        s2 = sc.nextLine();
+        if(s1.length()==s2.length())
+        {
+            char temp1[] = s1.toCharArray();
+            char temp2[] = s2.toCharArray();
+            Arrays.sort(temp1);
+            Arrays.sort(temp2);
+            for(int i=0;i<s1.length();i++)
+            {
+                if(temp1[i] != temp2[i])
+                {
+                    flag = false;
+                    break;
+                }
+            }
+            if(flag)
+                System.out.print("amagram");
+            else
+                System.out.print("not amagram");
+        }
+        else
+            System.out.print("not amagram");
+    }
 }
