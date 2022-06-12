@@ -1,21 +1,23 @@
-package com.java.innateTalent;
+public class reversearray {
+	
+public static void main(String[] args) {
 
-import java.util.Arrays;
+	 
 
-public class ArrayReverse {
+	        //Initialize array  
+	        int [] a = new int [] {1, 2, 3, 4, 5};  
+	        
+	        System.out.println("Original array: ");  
+	        
+	        for (int i = 0; i < a.length; i++) {  
+	            System.out.print(a[i] + " ");  
+	        }  
+	        System.out.println();  
+	        System.out.println("Array in reverse order: ");  
+	        //Loop through the array in reverse order  
+	        for (int i = a.length-1; i >= 0; i--) {  
+	            System.out.print(a[i] + " ");  
+	        }  
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int a[] = { 12, 6, 8, 43, 20, 3 }; // remove 8
-
-		for (int i = a.length - 1, j = 0; i > 0 && j < a.length/2; i--, j++) {
-//			System.out.print(a[i] + " " + a[j]);
-//			System.out.println();
-			int t=a[i];
-			a[i]=a[j];
-			a[j]=t;
-		}
-		System.out.println(Arrays.toString(a));
-	}
-
+}
 }
